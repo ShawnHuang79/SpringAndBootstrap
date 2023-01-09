@@ -1,213 +1,187 @@
-<%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%><!DOCTYPE html>
+<body>
 
-        <!-- Page Content -->
-        <div id="page-wrapper">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Buttons</h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Default Buttons
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <h4>Normal Buttons</h4>
-                            <p>
-                                <button type="button" class="btn btn-default">Default</button>
-                                <button type="button" class="btn btn-primary">Primary</button>
-                                <button type="button" class="btn btn-success">Success</button>
-                                <button type="button" class="btn btn-info">Info</button>
-                                <button type="button" class="btn btn-warning">Warning</button>
-                                <button type="button" class="btn btn-danger">Danger</button>
-                                <button type="button" class="btn btn-link">Link</button>
-                            </p>
-                            <br>
-                            <h4>Disabled Buttons</h4>
-                            <p>
-                                <button type="button" class="btn btn-default disabled">Default</button>
-                                <button type="button" class="btn btn-primary disabled">Primary</button>
-                                <button type="button" class="btn btn-success disabled">Success</button>
-                                <button type="button" class="btn btn-info disabled">Info</button>
-                                <button type="button" class="btn btn-warning disabled">Warning</button>
-                                <button type="button" class="btn btn-danger disabled">Danger</button>
-                                <button type="button" class="btn btn-link disabled">Link</button>
-                            </p>
-                            <br>
-                            <h4>Button Sizes</h4>
-                            <p>
-                                <button type="button" class="btn btn-primary btn-lg">Large button</button>
-                                <button type="button" class="btn btn-primary">Default button</button>
-                                <button type="button" class="btn btn-primary btn-sm">Small button</button>
-                                <button type="button" class="btn btn-primary btn-xs">Mini button</button>
-                                <br>
-                                <br>
-                                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-                            </p>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Circle Icon Buttons with Font Awesome Icons
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <h4>Normal Circle Buttons</h4>
-                            <button type="button" class="btn btn-default btn-circle"><i class="fa fa-check"></i>
-                            </button>
-                            <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-list"></i>
-                            </button>
-                            <button type="button" class="btn btn-success btn-circle"><i class="fa fa-link"></i>
-                            </button>
-                            <button type="button" class="btn btn-info btn-circle"><i class="fa fa-check"></i>
-                            </button>
-                            <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i>
-                            </button>
-                            <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-heart"></i>
-                            </button>
-                            <br>
-                            <br>
-                            <h4>Large Circle Buttons</h4>
-                            <button type="button" class="btn btn-default btn-circle btn-lg"><i class="fa fa-check"></i>
-                            </button>
-                            <button type="button" class="btn btn-primary btn-circle btn-lg"><i class="fa fa-list"></i>
-                            </button>
-                            <button type="button" class="btn btn-success btn-circle btn-lg"><i class="fa fa-link"></i>
-                            </button>
-                            <button type="button" class="btn btn-info btn-circle btn-lg"><i class="fa fa-check"></i>
-                            </button>
-                            <button type="button" class="btn btn-warning btn-circle btn-lg"><i class="fa fa-times"></i>
-                            </button>
-                            <button type="button" class="btn btn-danger btn-circle btn-lg"><i class="fa fa-heart"></i>
-                            </button>
-                            <br>
-                            <br>
-                            <h4>Extra Large Circle Buttons</h4>
-                            <button type="button" class="btn btn-default btn-circle btn-xl"><i class="fa fa-check"></i>
-                            </button>
-                            <button type="button" class="btn btn-primary btn-circle btn-xl"><i class="fa fa-list"></i>
-                            </button>
-                            <button type="button" class="btn btn-success btn-circle btn-xl"><i class="fa fa-link"></i>
-                            </button>
-                            <button type="button" class="btn btn-info btn-circle btn-xl"><i class="fa fa-check"></i>
-                            </button>
-                            <button type="button" class="btn btn-warning btn-circle btn-xl"><i class="fa fa-times"></i>
-                            </button>
-                            <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-heart"></i>
-                            </button>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-6 -->
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Outline Buttons with Smooth Transition
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <h4>Outline Buttons</h4>
-                            <p>
-                                <button type="button" class="btn btn-outline btn-default">Default</button>
-                                <button type="button" class="btn btn-outline btn-primary">Primary</button>
-                                <button type="button" class="btn btn-outline btn-success">Success</button>
-                                <button type="button" class="btn btn-outline btn-info">Info</button>
-                                <button type="button" class="btn btn-outline btn-warning">Warning</button>
-                                <button type="button" class="btn btn-outline btn-danger">Danger</button>
-                                <button type="button" class="btn btn-outline btn-link">Link</button>
-                            </p>
-                            <br>
-                            <h4>Outline Button Sizes</h4>
-                            <p>
-                                <button type="button" class="btn btn-outline btn-primary btn-lg">Large button</button>
-                                <button type="button" class="btn btn-outline btn-primary">Default button</button>
-                                <button type="button" class="btn btn-outline btn-primary btn-sm">Small button</button>
-                                <button type="button" class="btn btn-outline btn-primary btn-xs">Mini button</button>
-                                <br>
-                                <br>
-                                <button type="button" class="btn btn-outline btn-primary btn-lg btn-block">Block level button</button>
-                            </p>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Social Buttons with Font Awesome Icons
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <h4>Social Buttons</h4>
-                            <a class="btn btn-block btn-social btn-bitbucket">
-                                <i class="fa fa-bitbucket"></i> Sign in with Bitbucket
-                            </a>
-                            <a class="btn btn-block btn-social btn-dropbox">
-                                <i class="fa fa-dropbox"></i> Sign in with Dropbox
-                            </a>
-                            <a class="btn btn-block btn-social btn-facebook">
-                                <i class="fa fa-facebook"></i> Sign in with Facebook
-                            </a>
-                            <a class="btn btn-block btn-social btn-flickr">
-                                <i class="fa fa-flickr"></i> Sign in with Flickr
-                            </a>
-                            <a class="btn btn-block btn-social btn-github">
-                                <i class="fa fa-github"></i> Sign in with GitHub
-                            </a>
-                            <a class="btn btn-block btn-social btn-google-plus">
-                                <i class="fa fa-google-plus"></i> Sign in with Google
-                            </a>
-                            <a class="btn btn-block btn-social btn-instagram">
-                                <i class="fa fa-instagram"></i> Sign in with Instagram
-                            </a>
-                            <a class="btn btn-block btn-social btn-linkedin">
-                                <i class="fa fa-linkedin"></i> Sign in with LinkedIn
-                            </a>
-                            <a class="btn btn-block btn-social btn-pinterest">
-                                <i class="fa fa-pinterest"></i> Sign in with Pinterest
-                            </a>
-                            <a class="btn btn-block btn-social btn-tumblr">
-                                <i class="fa fa-tumblr"></i> Sign in with Tumblr
-                            </a>
-                            <a class="btn btn-block btn-social btn-twitter">
-                                <i class="fa fa-twitter"></i> Sign in with Twitter
-                            </a>
-                            <a class="btn btn-block btn-social btn-vk">
-                                <i class="fa fa-vk"></i> Sign in with VK
-                            </a>
 
-                            <hr>
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
 
-                            <div class="text-center">
-                                <a class="btn btn-social-icon btn-bitbucket"><i class="fa fa-bitbucket"></i></a>
-                                <a class="btn btn-social-icon btn-dropbox"><i class="fa fa-dropbox"></i></a>
-                                <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
-                                <a class="btn btn-social-icon btn-flickr"><i class="fa fa-flickr"></i></a>
-                                <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
-                                <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
-                                <a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
-                                <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
-                                <a class="btn btn-social-icon btn-pinterest"><i class="fa fa-pinterest"></i></a>
-                                <a class="btn btn-social-icon btn-tumblr"><i class="fa fa-tumblr"></i></a>
-                                <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
-                                <a class="btn btn-social-icon btn-vk"><i class="fa fa-vk"></i></a>
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-4 text-gray-800">Buttons</h1>
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+
+                            <!-- Circle Buttons -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Circle Buttons</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>Use Font Awesome Icons (included with this theme package) along with the circle
+                                        buttons as shown in the examples below!</p>
+                                    <!-- Circle Buttons (Default) -->
+                                    <div class="mb-2">
+                                        <code>.btn-circle</code>
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-circle">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-success btn-circle">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-info btn-circle">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-warning btn-circle">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-danger btn-circle">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                    <!-- Circle Buttons (Small) -->
+                                    <div class="mt-4 mb-2">
+                                        <code>.btn-circle .btn-sm</code>
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-circle btn-sm">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-success btn-circle btn-sm">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-info btn-circle btn-sm">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-warning btn-circle btn-sm">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-danger btn-circle btn-sm">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                    <!-- Circle Buttons (Large) -->
+                                    <div class="mt-4 mb-2">
+                                        <code>.btn-circle .btn-lg</code>
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-circle btn-lg">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-success btn-circle btn-lg">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-info btn-circle btn-lg">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-warning btn-circle btn-lg">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-danger btn-circle btn-lg">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                </div>
                             </div>
+
+                            <!-- Brand Buttons -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Brand Buttons</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>Google and Facebook buttons are available featuring each company's respective
+                                        brand color. They are used on the user login and registration pages.</p>
+                                    <p>You can create more custom buttons by adding a new color variable in the
+                                        <code>_variables.scss</code> file and then using the Bootstrap button variant
+                                        mixin to create a new style, as demonstrated in the <code>_buttons.scss</code>
+                                        file.</p>
+                                    <a href="#" class="btn btn-google btn-block"><i class="fab fa-google fa-fw"></i>
+                                        .btn-google</a>
+                                    <a href="#" class="btn btn-facebook btn-block"><i
+                                            class="fab fa-facebook-f fa-fw"></i> .btn-facebook</a>
+
+                                </div>
+                            </div>
+
                         </div>
-                        <!-- /.panel-body -->
+
+                        <div class="col-lg-6">
+
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Split Buttons with Icon</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>Works with any button colors, just use the <code>.btn-icon-split</code> class and
+                                        the markup in the examples below. The examples below also use the
+                                        <code>.text-white-50</code> helper class on the icons for additional styling,
+                                        but it is not required.</p>
+                                    <a href="#" class="btn btn-primary btn-icon-split">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-flag"></i>
+                                        </span>
+                                        <span class="text">Split Button Primary</span>
+                                    </a>
+                                    <div class="my-2"></div>
+                                    <a href="#" class="btn btn-success btn-icon-split">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-check"></i>
+                                        </span>
+                                        <span class="text">Split Button Success</span>
+                                    </a>
+                                    <div class="my-2"></div>
+                                    <a href="#" class="btn btn-info btn-icon-split">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-info-circle"></i>
+                                        </span>
+                                        <span class="text">Split Button Info</span>
+                                    </a>
+                                    <div class="my-2"></div>
+                                    <a href="#" class="btn btn-warning btn-icon-split">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-exclamation-triangle"></i>
+                                        </span>
+                                        <span class="text">Split Button Warning</span>
+                                    </a>
+                                    <div class="my-2"></div>
+                                    <a href="#" class="btn btn-danger btn-icon-split">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-trash"></i>
+                                        </span>
+                                        <span class="text">Split Button Danger</span>
+                                    </a>
+                                    <div class="my-2"></div>
+                                    <a href="#" class="btn btn-secondary btn-icon-split">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </span>
+                                        <span class="text">Split Button Secondary</span>
+                                    </a>
+                                    <div class="my-2"></div>
+                                    <a href="#" class="btn btn-light btn-icon-split">
+                                        <span class="icon text-gray-600">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </span>
+                                        <span class="text">Split Button Light</span>
+                                    </a>
+                                    <div class="mb-4"></div>
+                                    <p>Also works with small and large button classes!</p>
+                                    <a href="#" class="btn btn-primary btn-icon-split btn-sm">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-flag"></i>
+                                        </span>
+                                        <span class="text">Split Button Small</span>
+                                    </a>
+                                    <div class="my-2"></div>
+                                    <a href="#" class="btn btn-primary btn-icon-split btn-lg">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-flag"></i>
+                                        </span>
+                                        <span class="text">Split Button Large</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
-                    <!-- /.panel -->
+
                 </div>
-                <!-- /.col-lg-6 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
+                <!-- /.container-fluid -->
+</body>

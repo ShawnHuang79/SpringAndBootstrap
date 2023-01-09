@@ -24,6 +24,7 @@ import com.hsin.users.service.UserService;
 import com.hsin.users.validator.UserFormValidator;
 
 @Controller
+
 public class UserController {
 
 	@Autowired
