@@ -50,6 +50,7 @@
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
+<c:if test='${applicationScope["settings"]["demo.enable"] == "true"}' >
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="index">
@@ -151,7 +152,9 @@
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-
+</c:if>
+			
+			
         </ul>
         <!-- End of Sidebar -->
 
