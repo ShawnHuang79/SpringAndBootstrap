@@ -3,7 +3,7 @@
 <%@page session="false"%>
 <%@taglib prefix="s" uri="http://www.springframework.org/tags"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-
+<body>
 <script>
 	$(document).ready(function() {
 		$('#dataTables-users').DataTable({
@@ -89,3 +89,4 @@
 		<!-- /.col-lg-12 -->
 	</div>
 </div>
+</body>

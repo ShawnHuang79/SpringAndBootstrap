@@ -3,6 +3,7 @@
 <decorators defaultdir="/decorators">
 	<excludes>
 		<pattern>/login</pattern>
+		<pattern>/404</pattern>
 	</excludes>
 	<decorator name="layout" page="layout.jsp">
 		<pattern>*</pattern>

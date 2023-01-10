@@ -1,7 +1,7 @@
 <%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@page session="false"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-
+<body>
 <script>
 	$(document).ready(function() {
 		$('#dataTables-user').DataTable({
@@ -94,4 +94,4 @@
 	<!-- /.container-fluid -->
 </div>
 <!-- /#page-wrapper -->
-
+</body>

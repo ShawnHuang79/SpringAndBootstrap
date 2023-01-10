@@ -14,16 +14,16 @@
     <title>SB Admin 2</title>
 
     <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="/SpringAndBootstrap/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/SpringAndBootstrap/css/sb-admin-2.min.css" rel="stylesheet">
     
     <!-- Custom styles for tables.jsp -->
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="/SpringAndBootstrap/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
     
 
     
@@ -40,7 +40,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/SpringAndBootstrap/index">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -53,7 +53,7 @@
 <c:if test='${applicationScope["settings"]["demo.enable"] == "true"}' >
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index">
+                <a class="nav-link" href="/SpringAndBootstrap/index">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -76,8 +76,8 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons">Buttons</a>
-                        <a class="collapse-item" href="cards">Cards</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/buttons">Buttons</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/cards">Cards</a>
                     </div>
                 </div>
             </li>
@@ -93,10 +93,10 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color">Colors</a>
-                        <a class="collapse-item" href="utilities-border">Borders</a>
-                        <a class="collapse-item" href="utilities-animation">Animations</a>
-                        <a class="collapse-item" href="utilities-other">Other</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/utilities-color">Colors</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/utilities-border">Borders</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/utilities-animation">Animations</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/utilities-other">Other</a>
                     </div>
                 </div>
             </li>
@@ -120,30 +120,55 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login">Login</a>
-                        <a class="collapse-item" href="register">Register</a>
-                        <a class="collapse-item" href="forgot-password">Forgot Password</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/login">Login</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/register">Register</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/forgot-password">Forgot Password</a>
                         <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404">404 Page</a>
-                        <a class="collapse-item" href="blank">Blank Page</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/404">404 Page</a>
+                        <a class="collapse-item" href="/SpringAndBootstrap/blank">Blank Page</a>
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts">
+                <a class="nav-link" href="/SpringAndBootstrap/charts">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Charts</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables">
+                <a class="nav-link" href="/SpringAndBootstrap/tables">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span></a>
             </li>
+            <!-- Nav Item - userModule -->
+            <li class="nav-item">
+                <a class="nav-link" href="/SpringAndBootstrap/user/add">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Add user</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/SpringAndBootstrap/users">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>User list</span></a>
+            </li>
+            
+<!--             <li class="nav-item"> -->
+<!--                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" -->
+<!--                     aria-expanded="true" aria-controls="collapseTwo"> -->
+<!--                     <i class="fas fa-fw fa-cog"></i> -->
+<!--                     <span>userModule</span></a>                                                   -->
+<!--                 <div id="collapseUser" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar"> -->
+<!--                     <div class="bg-white py-2 collapse-inner rounded"> -->
+<!--                         <h6 class="collapse-header">Custom Components:</h6> -->
+<!--                         <a class="collapse-item" href="add">add</a> -->
+<!--                         <a class="collapse-item" href="listUser">listUsers</a> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--             </li> -->
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -153,6 +178,7 @@
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 </c:if>
+
 			
 			
         </ul>
@@ -408,7 +434,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login">Logout</a>
+                    <a class="btn btn-primary" href="/SpringAndBootstrap/login">Logout</a>
                 </div>
             </div>
         </div>
@@ -416,29 +442,29 @@
 
 
     <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/SpringAndBootstrap/vendor/jquery/jquery.min.js"></script>
+    <script src="/SpringAndBootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	
     <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/SpringAndBootstrap/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="/SpringAndBootstrap/js/sb-admin-2.min.js"></script>
     
     <!-- Page level plugins tables.jsp-->
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="/SpringAndBootstrap/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="/SpringAndBootstrap/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts tables.jsp-->
-    <script src="js/demo/datatables-demo.js"></script>
+    <script src="/SpringAndBootstrap/js/demo/datatables-demo.js"></script>
     
     <!-- Page level plugins charts.jsp-->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="/SpringAndBootstrap/vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts charts.jsp-->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
-    <script src="js/demo/chart-bar-demo.js"></script>
+    <script src="/SpringAndBootstrap/js/demo/chart-area-demo.js"></script>
+    <script src="/SpringAndBootstrap/js/demo/chart-pie-demo.js"></script>
+    <script src="/SpringAndBootstrap/js/demo/chart-bar-demo.js"></script>
     
 </body>
 </html>
